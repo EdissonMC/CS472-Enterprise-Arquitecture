@@ -4,6 +4,10 @@ public class EmailSender implements IEmailSender {
 	String outgoingMailServer = "smtp.acme.com";
 	private ILogger logger  ;//new Logger();
 
+	public EmailSender(ILogger logger) {
+		this.logger = logger;
+	}
+
 	public String getOutgoingMailServer() {
 		return outgoingMailServer;
 	}
@@ -14,8 +18,8 @@ public class EmailSender implements IEmailSender {
 	}
 
 
-	public void setLogger(ILogger logger){
-		this.logger= logger;
-	}
+//	public void setLogger(ILogger logger){
+//		this.logger= logger;
+//	}
 
 }
