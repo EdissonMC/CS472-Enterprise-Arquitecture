@@ -1,5 +1,8 @@
 package customers;
 
+import org.springframework.stereotype.Service;
+
+
 public class CustomerService implements ICustomerService {
 	ICustomerDAO customerDAO ;//= new CustomerDAO();
 	IEmailSender emailSender ;//= new EmailSender();

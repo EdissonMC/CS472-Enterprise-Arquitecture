@@ -1,5 +1,8 @@
 package customers;
 
+import org.springframework.stereotype.Service;
+
+
 public class CustomerDAO implements ICustomerDAO{
 	private ILogger logger ;// new Logger();
 
@@ -10,6 +13,7 @@ public class CustomerDAO implements ICustomerDAO{
 	public void save(Customer customer) {
 		// simple sleep
 		try {
+
 			Thread.sleep(350);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
@@ -19,8 +23,5 @@ public class CustomerDAO implements ICustomerDAO{
 	}
 
 
-//	public void setLogger(ILogger logger){
-//		this.logger= logger;
-//	}
 
 }
