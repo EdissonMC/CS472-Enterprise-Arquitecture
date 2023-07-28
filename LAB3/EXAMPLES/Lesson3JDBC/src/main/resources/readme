@@ -1,0 +1,57 @@
+First you need to create the table in the database:
+
+
+SELECT * FROM product
+
+CREATE TABLE product (
+    number SERIAL PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    price NUMERIC(10, 2) NOT NULL
+);
+
+
+create table customer (
+  customernumber SERIAL PRIMARY KEY NOT NULL,
+  name VARCHAR(100) ,
+  email VARCHAR(100) ,
+  phone NUMERIC(10)  );
+
+
+create table customer (
+  customernumber SERIAL PRIMARY KEY NOT NULL,
+  name VARCHAR(100) ,
+  email VARCHAR(100) ,
+  phone VARCHAR(100)  );
+
+
+
+DROP TABLE products;
+
+CREATE TABLE order_info
+( order_id integer CONSTRAINT order_details_pk PRIMARY KEY,
+  Product_id integer NOT NULL,
+  Delivery_date date,
+  quantity integer,
+  feedback TEXT
+);
+
+create table creditcard (
+  cardnumber SERIAL primary key not null,
+  type VARCHAR(100),
+validationDate VARCHAR(100),
+customernumber NUMERIC(20)
+);
+
+create table creditcard (
+  cardnumber VARCHAR(100) primary key not null,
+  type VARCHAR(100),
+validationDate VARCHAR(100),
+customernumber NUMERIC(20)
+);
+
+CREATE TABLE product(
+   productNumber VARCHAR(100) primary key not null,
+  name VARCHAR(50),
+  price NUMERIC(10,2)
+
+);

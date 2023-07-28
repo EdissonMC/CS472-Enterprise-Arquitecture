@@ -1,0 +1,19 @@
+First you need to create the table in the database:
+
+
+
+CREATE TABLE product (
+    number SERIAL PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    price NUMERIC(10, 2) NOT NULL
+);
+
+DROP TABLE products;
+
+CREATE TABLE order_info
+( order_id integer CONSTRAINT order_details_pk PRIMARY KEY,
+  Product_id integer NOT NULL,
+  Delivery_date date,
+  quantity integer,
+  feedback TEXT
+);
