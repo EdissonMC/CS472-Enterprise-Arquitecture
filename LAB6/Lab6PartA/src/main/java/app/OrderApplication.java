@@ -7,6 +7,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import repositories.AddressRepository;
 import repositories.CDRepository;
 import repositories.CustomerRepository;
 import repositories.OrderRepository;
@@ -23,10 +24,13 @@ public class OrderApplication implements CommandLineRunner {
     OrderRepository orderRepository;
 
     @Autowired
-    CustomerRepository customeRepository;
+    CustomerRepository customerRepository;
 
     @Autowired
     CDRepository CDRepository;
+
+    @Autowired
+    AddressRepository addressRepository;
 
     public static void main(String[] args) {
         SpringApplication.run(OrderApplication.class, args);
@@ -50,26 +54,50 @@ public class OrderApplication implements CommandLineRunner {
 //		showOrder(order);
 
 //		-> Task: Give all customers.
-//		List<Customer> customerList= customeRepository.findAll();
-//       showData(customerList);
+		List<Customer> customerList= customerRepository.findAll();
+       showData(customerList);
 
 //		  -> Task: Give all CD’s from Michael Jackson with a price smaller than 10 euro
-//        List<CD> CDList = CDRepository.findByArtistAndPriceLessThan("Michael Jackson", 10.0);
-//        showData(CDList);
+        List<CD> CDList = CDRepository.findByArtistAndPriceLessThan("Michael Jackson", 10.0);
+        showData(CDList);
 
 //        -> Task: Give all customers with zip code 2389HJ
-//        List<Customer> customerList = customeRepository.findByAddressZip("2318KL");
-//        showData(customerList);
+       customerList = customerRepository.findByAddressZip("2318KL");
+        showData(customerList);
 
 //      -> Task:  Give all customers who ordered a DVD with the name The Greatest Showman
-//        List<Customer> customerProducts = customeRepository.findByTheOrdersOrderlinesProductName("The Greatest Showman");
-//        showData(customerProducts);
+        List<Customer> customerProducts = customerRepository.findByTheOrdersOrderlinesProductName("The Greatest Showman");
+        showData(customerProducts);
 
+//      ->  Give all customers from the USA.
+        List<Customer> customers = customerRepository.getAllCustomersFromCountry("USA");
+        System.out.println("-> All Customers from USA");
+        customers.stream().forEach(c -> System.out.println(c));
 
+//      ->Task: Give the ordernumbers of all orders with status ‘closed’
+        List<String> orders = orderRepository.getOrderNumbersFromOrdersWithStatusClosed();
+        System.out.println("-> All Ordernummers from orders with status closed ");
+        orders.stream().forEach(c -> System.out.println(c));
+
+//      -> Task: Give the first and lastnames of all customers who live in "New york".
+        String city = "New york";
+         customers = customerRepository.getAllCustomersFromCity(city);
+        System.out.println("-> All Customers from Amsterdam ");
+        customers.stream().forEach(c -> System.out.println(c));
+
+//      -> Task: Give the ordernumbers of all orders from customers who live in a certain city (city is  parameter).
+       orders = orderRepository.getOrderNumbersFromOrdersFromCity("New york");
+        System.out.println("-> All Ordernummers from customers from New york  ");
+        orders.stream().forEach(c->System.out.println(c));
+
+//      -> Task:   Give all addresses in New york.
+        List<Address> addresses = addressRepository.getAllAddressesFromCity("New york");
+        System.out.println("-> All addresses from New york ");
+        addresses.stream().forEach(c -> System.out.println(c));
 
     }
 
-    public <T>  void showData(List<T> listT){
+    public <T> void showData(List<T> listT) {
         for (T item : listT) {
             System.out.println(item);
         }
