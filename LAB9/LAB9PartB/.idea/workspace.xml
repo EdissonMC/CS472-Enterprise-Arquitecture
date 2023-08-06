@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="750a5de1-a3fa-4234-bc7c-e59c4cfef417" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../CONCEPTS/src/main/java/JPAMappings/OneToMany/Example1/repository/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB7/Lab7PartC/src/main/java/bank/domain/TraceRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB7/Lab7PartC/src/main/java/bank/repositories/TraceRecordRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB9PartARestClient/src/main/java/client/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB9PartARestClient/src/main/java/client/Books.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab9PartBSever/src/main/java/bank/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab9PartBSever/src/main/java/bank/controller/CustomErrorType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson9PartARest/src/main/java/mvc/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson9PartARest/src/main/java/mvc/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson9PartARest/src/main/java/mvc/Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CONCEPTS/src/main/java/JPAMappings/OneToMany/Example1/AppMappingE1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CONCEPTS/src/main/java/JPAMappings/OneToMany/Example1/AppMappingE1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CONCEPTS/src/main/java/JPAMappings/OneToMany/Example1/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CONCEPTS/src/main/java/JPAMappings/OneToMany/Example1/model/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CONCEPTS/src/main/java/JPAMappings/OneToMany/Example1/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CONCEPTS/src/main/java/JPAMappings/OneToMany/Example1/model/UserD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CONCEPTS/src/main/java/JPAMappings/OneToMany/Example1/repository/InstructorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CONCEPTS/src/main/java/JPAMappings/OneToMany/Example1/repository/InstructorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CONCEPTS/src/main/java/JPAMappings/OneToMany/Example1/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CONCEPTS/src/main/java/JPAMappings/OneToMany/Example1/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CONCEPTS/target/classes/JPAMappings/OneToMany/Example1/AppMappingE1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../CONCEPTS/target/classes/JPAMappings/OneToMany/Example1/AppMappingE1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CONCEPTS/target/classes/JPAMappings/OneToMany/Example1/model/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../CONCEPTS/target/classes/JPAMappings/OneToMany/Example1/model/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CONCEPTS/target/classes/JPAMappings/OneToMany/Example1/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB6/Lab6PartA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB6/Lab6PartA.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB6/Lab6PartA/src/main/java/app/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB6/Lab6PartA/src/main/java/app/OrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB6/Lab6PartA/src/main/java/domain/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB6/Lab6PartA/src/main/java/domain/CD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB6/Lab6PartA/src/main/java/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB6/Lab6PartA/src/main/java/domain/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB6/Lab6PartA/src/main/java/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB6/Lab6PartA/src/main/java/domain/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB6/Lab6PartA/src/main/java/domain/OrderLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB6/Lab6PartA/src/main/java/domain/OrderLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB6/Lab6PartA/src/main/java/repositories/CDRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB6/Lab6PartA/src/main/java/repositories/CDRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB6/Lab6PartA/src/main/java/repositories/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB6/Lab6PartA/src/main/java/repositories/CustomerRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2TaUgktu0jUR3dDnwNyd0Qswz5s" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Volumes/archivos/_MIU/_0_MATERIAS CURSOS/_0_CS544 EA/LABS/LAB9/LAB9PartB"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="750a5de1-a3fa-4234-bc7c-e59c4cfef417" name="Changes" comment="" />
+      <created>1691280798122</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691280798122</updated>
+    </task>
+    <servers />
+  </component>
+</project>

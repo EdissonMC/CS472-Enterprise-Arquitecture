@@ -11,6 +11,7 @@ public interface CDRepository extends JpaRepository<CD,Long> {
 
     public List<CD> findByArtistAndPriceLessThan(String artist, Double price);
 
+    public List<CD> searchByArtist(@Param("artist") String artist);
 //    @Query(value = "select * from cd inner join product on cd.id=product.id where artist = :artist",nativeQuery = true)
 //    List<CD> findByAnArtist(@Param("artist")String artist);
 //

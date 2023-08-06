@@ -1,8 +1,10 @@
 package domain;
 
 import javax.persistence.Entity;
+import javax.persistence.NamedQuery;
 
 @Entity
+@NamedQuery(name="CD.searchByArtist" , query="SELECT cd FROM CD cd WHERE cd.artist=:artist")
 public class CD extends Product{
     private String artist;
 

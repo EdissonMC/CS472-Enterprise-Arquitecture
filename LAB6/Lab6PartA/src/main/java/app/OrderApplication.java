@@ -54,46 +54,54 @@ public class OrderApplication implements CommandLineRunner {
 //		showOrder(order);
 
 //		-> Task: Give all customers.
-		List<Customer> customerList= customerRepository.findAll();
-       showData(customerList);
+//		List<Customer> customerList= customerRepository.findAll();
+//       showData(customerList);
 
 //		  -> Task: Give all CD’s from Michael Jackson with a price smaller than 10 euro
-        List<CD> CDList = CDRepository.findByArtistAndPriceLessThan("Michael Jackson", 10.0);
-        showData(CDList);
+//        List<CD> CDList = CDRepository.findByArtistAndPriceLessThan("Michael Jackson", 10.0);
+//        showData(CDList);
+//        List<CD> CDListByArtist = CDRepository.searchByArtist("Michael Jackson");
+//        showData(CDListByArtist);
+
+        List<Customer> CustomersBougthCDListByArtist = customerRepository.getALLCustomersThatBoughtCDByArtist("Michael Jackson");
+        showData(CustomersBougthCDListByArtist);
 
 //        -> Task: Give all customers with zip code 2389HJ
-       customerList = customerRepository.findByAddressZip("2318KL");
-        showData(customerList);
+//       customerList = customerRepository.findByAddressZip("2318KL");
+//        showData(customerList);
 
 //      -> Task:  Give all customers who ordered a DVD with the name The Greatest Showman
-        List<Customer> customerProducts = customerRepository.findByTheOrdersOrderlinesProductName("The Greatest Showman");
-        showData(customerProducts);
+//        List<Customer> customerProducts = customerRepository.findByTheOrdersOrderlinesProductName("The Greatest Showman");
+//        showData(customerProducts);
+
 
 //      ->  Give all customers from the USA.
-        List<Customer> customers = customerRepository.getAllCustomersFromCountry("USA");
-        System.out.println("-> All Customers from USA");
-        customers.stream().forEach(c -> System.out.println(c));
+//        List<Customer> customers = customerRepository.getAllCustomersFromCountry("USA");
+//        List<String> customersNames = customerRepository.getAllCustomersNameFromCountry("USA");
+//        System.out.println("-> All Customers Names from USA");
+//        customersNames.stream().forEach(c -> System.out.println(c));
+
 
 //      ->Task: Give the ordernumbers of all orders with status ‘closed’
-        List<String> orders = orderRepository.getOrderNumbersFromOrdersWithStatusClosed();
-        System.out.println("-> All Ordernummers from orders with status closed ");
-        orders.stream().forEach(c -> System.out.println(c));
+//        List<String> orders = orderRepository.getOrderNumbersFromOrdersWithStatusClosed();
+//        System.out.println("-> All Ordernummers from orders with status closed ");
+//        orders.stream().forEach(c -> System.out.println(c));
 
 //      -> Task: Give the first and lastnames of all customers who live in "New york".
-        String city = "New york";
-         customers = customerRepository.getAllCustomersFromCity(city);
-        System.out.println("-> All Customers from Amsterdam ");
-        customers.stream().forEach(c -> System.out.println(c));
+//        String city = "New york";
+//         customers = customerRepository.getAllCustomersFromCity(city);
+//        System.out.println("-> All Customers from Amsterdam ");
+//        customers.stream().forEach(c -> System.out.println(c));
 
 //      -> Task: Give the ordernumbers of all orders from customers who live in a certain city (city is  parameter).
-       orders = orderRepository.getOrderNumbersFromOrdersFromCity("New york");
-        System.out.println("-> All Ordernummers from customers from New york  ");
-        orders.stream().forEach(c->System.out.println(c));
+//       orders = orderRepository.getOrderNumbersFromOrdersFromCity("New york");
+//        System.out.println("-> All Ordernummers from customers from New york  ");
+//        orders.stream().forEach(c->System.out.println(c));
 
 //      -> Task:   Give all addresses in New york.
-        List<Address> addresses = addressRepository.getAllAddressesFromCity("New york");
-        System.out.println("-> All addresses from New york ");
-        addresses.stream().forEach(c -> System.out.println(c));
+//        List<Address> addresses = addressRepository.getAllAddressesFromCity("New york");
+//        System.out.println("-> All addresses from New york ");
+//        addresses.stream().forEach(c -> System.out.println(c));
 
     }
 

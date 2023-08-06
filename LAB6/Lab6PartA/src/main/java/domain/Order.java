@@ -16,6 +16,7 @@ public class Order {
 	@Id
 	@GeneratedValue
 	private long id;
+
 	@ManyToOne (cascade={CascadeType.PERSIST})
 	private Customer customer;
 
