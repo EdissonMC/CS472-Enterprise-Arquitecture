@@ -43,6 +43,8 @@ public class Application implements CommandLineRunner {
 		// show balances
 
 		Collection<Account> accountlist = accountService.getAllAccounts();
+
+
 		Customer customer = null;
 		for (Account account : accountlist) {
 			customer = account.getCustomer();

@@ -40,13 +40,17 @@ public class Application implements CommandLineRunner {
 		// show balances
 
 		Collection<AccountDTO> accountlist = accountService.getAllAccounts();
+
+
 		CustomerDTO customer = null;
 		for (AccountDTO account : accountlist) {
 			customer = account.getCustomer();
 			System.out.println("Statement for Account: " + account.getAccountnumber());
 			System.out.println("Account Holder: " + customer.getName());
 			System.out.println(
-					"-Date-------------------------" + "-Description------------------" + "-Amount-------------");
+					"-Date-------------------------" +
+					"-Description------------------" +
+					"-Amount-------------");
 			for (AccountEntryDTO entry : account.getEntryList()) {
 				System.out.printf("%30s%30s%20.2f\n", entry.getDate().toString(), entry.getDescription(),
 						entry.getAmount());
@@ -54,5 +58,8 @@ public class Application implements CommandLineRunner {
 			System.out.println("----------------------------------------" + "----------------------------------------");
 			System.out.printf("%30s%30s%20.2f\n\n", "", "Current Balance:", account.getBalance());
 		}
+
+
+
 	}
 }
