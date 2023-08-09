@@ -4,8 +4,11 @@ import java.util.Collection;
 
 import bank.domain.Account;
 import bank.domain.AccountEntry;
+import bank.domain.Accounts;
 import bank.domain.Customer;
+import bank.service.AccountDTO;
 import bank.service.AccountService;
+import bank.service.AccountsDTO;
 import bank.service.IAccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -19,6 +22,7 @@ public class Application implements CommandLineRunner {
 
     RestTemplate restTemplate = new RestTemplate();
     private String serverUrl = "http://127.0.0.1:8081/accounts";
+    private String baseUrl = "http://127.0.0.1:8081";
 
 
     @Autowired
@@ -32,47 +36,35 @@ public class Application implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
 
-//		 accountService = new AccountService();
-        // create 2 accounts;
-        Account account1 = restTemplate.getForObject(
-                                            serverUrl + "/{accountNumber}",
-                                                Account.class,
-                                                "4253892");
+        /*
+        *   GET AN ACCOUTN
+        * */
+//        Account account1 = restTemplate.getForObject(
+//                                            serverUrl + "/{accountNumber}",
+//                                                Account.class,
+//                                                "4253892");
+//        System.out.println(account1);
 
+        
+        //Create 1 an Account
+//        String nameCustomer1= "charrito";
+//         restTemplate.postForLocation(serverUrl + "/{customerName}", Account.class, nameCustomer1);
 
-        System.out.println(account1);
-//        accountService.createAccount(1263862, "Frank Brown");
-//        accountService.createAccount(4253892, "John Doe");
-//        //use account 1;
-//        accountService.deposit(1263862, 240);
-//        accountService.deposit(1263862, 529);
-//        accountService.withdrawEuros(1263862, 230);
-//        //use account 2;
-//        accountService.deposit(4253892, 12450);
-//        accountService.depositEuros(4253892, 200);
-//        accountService.transferFunds(4253892, 1263862, 100, "payment of invoice 10232");
-        // show balances
+//        String nameCustomer2= "charrita";
+//        restTemplate.postForLocation(serverUrl + "/accounts/{customerName}", Account.class, nameCustomer2);
 
-//        Collection<Account> accountlist = accountService.getAllAccounts();
+        // Deposite into an Account
+//        String accountNumber1="77980";
+//        String amount1="100";
+//        restTemplate.postForLocation(serverUrl + "/deposit/{accountNumber}/{amount}", Account.class, accountNumber1, amount1);
 
-//        Customer customer = null;
-//        for (Account account : accountlist) {
-//            customer = account.getCustomer();
-//            System.out.println("Statement for Account: " + account.getAccountnumber());
-//            System.out.println("Account Holder: " + customer.getName());
-//            System.out.println("-Date-------------------------"
-//                    + "-Description------------------"
-//                    + "-Amount-------------");
-//            for (AccountEntry entry : account.getEntryList()) {
-//                System.out.printf("%30s%30s%20.2f\n", entry.getDate()
-//                        .toString(), entry.getDescription(), entry.getAmount());
-//            }
-//            System.out.println("----------------------------------------"
-//                    + "----------------------------------------");
-//            System.out.printf("%30s%30s%20.2f\n\n", "", "Current Balance:",
-//                    account.getBalance());
-//        }
+        // Withdraw from an Account
+//        String accountNumber2="77980";
+//        String amount2="40";
+//        restTemplate.postForLocation(serverUrl + "/withdraw/{accountNumber}/{amount}", Account.class, accountNumber2, amount2);
 
+//        AccountsDTO accounts = restTemplate.getForObject(serverUrl  , AccountsDTO.class);
+//        System.out.println(accounts);
 
     }
 }

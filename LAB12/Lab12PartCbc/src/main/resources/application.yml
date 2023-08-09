@@ -1,0 +1,14 @@
+app.properties:
+  applicationName: app1
+  version: 3.4
+  serverUrl: http://www.server.com
+  serverName: server1
+  countries:
+    - USA
+    - COLOMBIA
+    - MEXICO
+  user:
+    firstname: Pancho
+    lastname: Sanchez
+    username: Pinche
+    password: pancho123

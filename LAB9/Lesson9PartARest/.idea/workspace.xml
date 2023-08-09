@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18f0a874-7a0d-4fd6-91cb-2db84caa1266" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../LAB9PartB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB9PartB/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB9PartB/Lab9PartBClient/src/main/java/bank/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB9PartB/Lab9PartBClient/src/main/java/bank/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/BookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/Books.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/Contact.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/ContactController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/Contacts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/CustomErrorType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/SpringBootMVCApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ContactsRESTTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\vedam\.m2\wrapper\dists\apache-maven-3.5.3-bin\2c22a6s60afpuloj4v181qvild\apache-maven-3.5.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kWar1medkP1SjuxnwvAI13ejgF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/archivos/_MIU/_0_MATERIAS CURSOS/_0_CS544 EA/LABS/LAB9/Lesson9PartARest&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\EnterpriseArchiteture\demo code" />
+      <recent name="C:\waa\workspacenew\" />
+      <recent name="C:\waa\workspacenew\Lesson3RESTDemo\.settings" />
+      <recent name="C:\waa\workspacenew\Lesson2NavigationDemo\src\main\resources\webfiles" />
+      <recent name="C:\waa\workspacenew" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="persons" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SpringBootMVCApplication">
+    <configuration name="SpringBootApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="persons.SpringBootApplication" />
+      <module name="Lesson9RESTContactServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootMVCApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mvc.SpringBootMVCApplication" />
+      <module name="SpringBootServlet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactsRESTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lesson9RESTContactServer" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ContactsRESTTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringBootMVCApplication" />
+        <item itemvalue="JUnit.ContactsRESTTest" />
+        <item itemvalue="Application.SpringBootApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18f0a874-7a0d-4fd6-91cb-2db84caa1266" name="Default Changelist" comment="" />
+      <created>1605819001429</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605819001429</updated>
+    </task>
+    <servers />
+  </component>
+</project>
