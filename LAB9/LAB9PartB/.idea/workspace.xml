@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="750a5de1-a3fa-4234-bc7c-e59c4cfef417" name="Changes" comment="" />
+    <list default="true" id="750a5de1-a3fa-4234-bc7c-e59c4cfef417" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../LAB11/lab11code/Lab11CalculatorReceiver/src/main/java/jms/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB11/lab11code/Lab11CalculatorReceiver/src/main/java/jms/CalculatorListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB11/lab11code/Lab11CalculatorReceiver/src/main/java/jms/CalculatorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB11/lab11code/Lab11CalculatorSender/src/main/java/jms/CalculatorMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB11/lab11code/Lab11Receiver/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB11/lab11code/Lab11Receiver/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB11/lab11code/Lab11Receiver/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB11/lab11code/Lab11Receiver/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB11/lab11code/Lab11Receiver/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB11/lab11code/Lab11Receiver/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB11/lab11code/Lab11Receiver/src/main/java/jms/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB11/lab11code/Lab11Receiver/src/main/java/jms/PersonMessageListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB11/lab11code/Lab11Receiver/src/main/java/jms/SpringJmsReceiverApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB11/lab11code/Lab11Receiver/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB11/lab11code/Lab11Sender/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB11/lab11code/Lab11Sender/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB11/lab11code/Lab11Sender/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB11/lab11code/Lab11Sender/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB11/lab11code/Lab11Sender/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB11/lab11code/Lab11Sender/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB11/lab11code/Lab11Sender/src/main/java/jms/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB11/lab11code/Lab11Sender/src/main/java/jms/SpringJmsPersonSenderApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB11/lab11code/Lab11Sender/src/main/resources/application.properties" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,14 +39,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Volumes/archivos/_MIU/_0_MATERIAS CURSOS/_0_CS544 EA/LABS/LAB9/LAB9PartB"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/archivos/_MIU/_0_MATERIAS CURSOS/_0_CS544 EA/LABS/LAB9/LAB9PartB&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

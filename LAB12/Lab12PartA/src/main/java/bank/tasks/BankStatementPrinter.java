@@ -14,7 +14,8 @@ import java.util.Collection;
 public class BankStatementPrinter {
     @Autowired
     IAccountService accountService;
-    @Scheduled(fixedRate = 5000)
+
+//    @Scheduled(fixedRate = 5000)
     public void detailsAllAccounts(){
         System.out.println("every 20seg");
 
